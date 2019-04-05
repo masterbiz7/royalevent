@@ -2,14 +2,14 @@
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  src: local('PT Serif'), local('PTSerif-Regular'), url(https://fonts.gstatic.com/s/ptserif/v9/EJRVQgYoZZY2vCFuvAFSzro.ttf) format('truetype');
+  src: local('PT Serif'), local('PTSerif-Regular'), url(https://fonts.gstatic.com/s/ptserif/v10/EJRVQgYoZZY2vCFuvAFSzro.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 700;
-  src: local('PT Serif Bold'), local('PTSerif-Bold'), url(https://fonts.gstatic.com/s/ptserif/v9/EJRSQgYoZZY2vCFuvAnt66qWVy4.ttf) format('truetype');
+  src: local('PT Serif Bold'), local('PTSerif-Bold'), url(https://fonts.gstatic.com/s/ptserif/v10/EJRSQgYoZZY2vCFuvAnt66qWVy4.ttf) format('truetype');
 }
 
 @font-face {
@@ -141,7 +141,7 @@ img {
 
 .orange-button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -621,7 +621,7 @@ header .arr-down i {
 
 .welcome-block button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -663,7 +663,7 @@ header .arr-down i {
 }
 
 .aboutus .logo-wrapper {
-  margin-top: 8rem;
+  margin-top: 7rem;
   margin-bottom: 20px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -792,8 +792,7 @@ header .arr-down i {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 7rem;
-  padding-right: 4rem;
+  padding: 1rem 6rem;
 }
 
 .aboutus .aboutus-card .card-content .card-text h3 {
@@ -802,8 +801,7 @@ header .arr-down i {
   font-weight: 700;
   line-height: 1;
   text-align: left;
-  margin: 60px 0;
-  padding: 8rem auto;
+  padding: 4rem 0;
   max-width: 485px;
 }
 
@@ -813,7 +811,7 @@ header .arr-down i {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  padding: 40px 0 20px 0;
+  padding-bottom: 20px;
 }
 
 .aboutus .aboutus-card .card-content .card-text p span {
@@ -823,7 +821,7 @@ header .arr-down i {
 
 .aboutus .aboutus-card .card-content button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -833,7 +831,7 @@ header .arr-down i {
   letter-spacing: 1px;
   text-transform: uppercase;
   border: none;
-  margin: 4rem 0;
+  margin: 50px 0;
 }
 
 .aboutus .aboutus-card .card-content button:hover {
@@ -1036,7 +1034,7 @@ header .arr-down i {
 
 .our-menu button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -1229,7 +1227,7 @@ header .arr-down i {
 
 .services button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -1360,7 +1358,7 @@ header .arr-down i {
 
 .book-today button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -1405,6 +1403,7 @@ header .arr-down i {
   background: url('../img/branches.png') no-repeat center;
   -webkit-background-size: cover;
           background-size: cover;
+  position: relative;
   width: 260px;
   height: 96px;
   margin: 0 auto 50px auto;
@@ -1462,9 +1461,16 @@ header .arr-down i {
 }
 
 .testimonials .logo-wrapper .logo-line {
-  margin: 40px auto;
+  height: 2px;
   background-color: #a7a99a;
   width: 111px;
+  margin: auto;
+  position: absolute;
+  top: 150%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
 }
 
 .testimonials .plate {
@@ -1717,10 +1723,6 @@ header .arr-down i {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .chef .logo-wrapper .logo {
@@ -1793,7 +1795,7 @@ header .arr-down i {
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto;
+  margin: 0 auto;
   max-width: 1170px;
   width: 100%;
   display: -webkit-box;
@@ -1808,7 +1810,11 @@ header .arr-down i {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 542px;
+}
+
+.chef .chef-card .card-wrapper .moreno {
+  max-width: 585px;
+  height: 546px;
 }
 
 .chef .chef-card .card-wrapper .card-text {
@@ -1816,12 +1822,12 @@ header .arr-down i {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 75px 60px 70px 65px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
@@ -1832,16 +1838,36 @@ header .arr-down i {
   background-color: #fff;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
+  width: 586px;
+  height: 542px;
+}
+
+.chef .chef-card .card-wrapper .card-text .article {
+  padding: 75px 60px 40px 65px;
+}
+
+.chef .chef-card .card-wrapper .card-text .quotes {
+  font-family: 'PT Serif', serif;
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  top: 8px;
+  left: 9%;
+  letter-spacing: 0;
+  font-size: 150px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .chef .chef-card .card-wrapper .card-text .line {
-  margin: 40px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 65px 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -1852,12 +1878,21 @@ header .arr-down i {
 }
 
 .chef .chef-card .card-wrapper .card-text .chef-name {
+  display: inline-block;
   font-weight: 700;
+  font-size: 20px;
+  padding-left: 65px;
+  padding-top: 30px;
+}
+
+.chef .chef-card .card-wrapper .card-text .job {
+  padding-left: 5px;
+  display: inline-block;
 }
 
 .chef .chef-card .card-wrapper .card-text button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -1866,8 +1901,9 @@ header .arr-down i {
   text-align: center;
   letter-spacing: 1px;
   border: none;
-  margin: 40px 0;
+  margin-top: 60px;
   text-transform: uppercase;
+  margin-left: 65px;
 }
 
 .chef .chef-card .card-wrapper .card-text button:hover {
@@ -1889,7 +1925,7 @@ header .arr-down i {
           flex-direction: column;
   background-color: #f3f1ec;
   max-width: 1820px;
-  margin: auto;
+  margin: 0 auto;
   /*---- logo-wrapper ----*/
 }
 
@@ -2140,7 +2176,7 @@ header .arr-down i {
 
 .gallery button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -2309,7 +2345,7 @@ header .arr-down i {
 
 .contactus form button {
   background-color: #ffb18b;
-  width: 242px;
+  width: 240px;
   height: 60px;
   font-family: 'PT Serif', serif;
   color: #ffffff;
@@ -2490,7 +2526,86 @@ footer .socials .social:hover {
   }
 
   .aboutus .aboutus-card {
-    width: 90%;
+    position: static;
+  }
+
+  .aboutus .aboutus-card {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .aboutus .aboutus-card {
+    left: 0;
+  }
+
+  .aboutus .aboutus-card {
+    width: 100%;
+  }
+
+  .aboutus .aboutus-card .card-content .card-text {
+    height: auto;
+  }
+
+  .chef {
+    position: static;
+  }
+
+  .chef {
+    height: auto;
+  }
+
+  .chef .chef-card {
+    position: static;
+  }
+
+  .chef .chef-card .card-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .chef .chef-card .card-wrapper {
+    width: auto;
+  }
+
+  .chef .chef-card .card-wrapper {
+    height: auto;
+  }
+
+  .chef .chef-card .card-wrapper {
+    margin: 0 auto;
+  }
+
+  .chef .chef-card .card-wrapper .moreno {
+    height: auto;
+  }
+
+  .chef .chef-card .card-wrapper .card-text {
+    height: auto;
+  }
+
+  .chef .chef-card .card-wrapper .card-text {
+    width: 585px;
+  }
+
+  .chef .chef-card .card-wrapper .card-text .article {
+    padding: 30px;
+  }
+
+  .chef .chef-card .card-wrapper .card-text .line {
+    margin: 0 30px;
+  }
+
+  .chef .chef-card .card-wrapper .card-text .chef-name {
+    padding-left: 30px;
+  }
+
+  .chef .chef-card .card-wrapper .card-text button {
+    margin: 50px 30px;
   }
 
   .gallery .projects .project-wrapper {
@@ -2527,16 +2642,12 @@ footer .socials .social:hover {
     top: 80%;
   }
 
-  .aboutus .aboutus-card {
-    left: 0;
+  .aboutus .aboutus-card .card-content .card-text {
+    padding-left: 30px;
   }
 
   .aboutus .aboutus-card .card-content .card-text {
-    padding-left: 3rem;
-  }
-
-  .aboutus .aboutus-card .card-content .card-text {
-    padding-right: 3rem;
+    padding-right: 30px;
   }
 
   .gallery .projects .project-wrapper {
@@ -2604,12 +2715,20 @@ footer .socials .social:hover {
     height: auto;
   }
 
-  .aboutus .aboutus-card {
-    position: relative;
+  .aboutus .logo-wrapper {
+    margin-top: 0;
+  }
+
+  .aboutus .logo-wrapper .aboutus-logo {
+    margin: 60px 0 30px;
+  }
+
+  .aboutus .logo-wrapper .line {
+    margin: -30px 0 40px;
   }
 
   .aboutus .aboutus-card {
-    top: 0;
+    margin-top: 30%;
   }
 
   .aboutus .aboutus-card .card-content {
@@ -2620,24 +2739,16 @@ footer .socials .social:hover {
     grid-template-rows: minmax(200px, 485px) 1fr;
   }
 
-  .aboutus .aboutus-card .card-content {
-    margin-top: 30%;
-  }
-
-  .aboutus .aboutus-card .card-content {
-    margin-left: 10%;
-  }
-
   .aboutus .aboutus-card .card-content .card-img {
     margin-top: -40%;
   }
 
-  .aboutus .aboutus-card .card-content .card-text h3 {
-    margin-top: -30%;
+  .aboutus .aboutus-card .card-content .card-text {
+    margin: -150px 0 0;
   }
 
   .aboutus .aboutus-card .card-content .card-text h3 {
-    margin-bottom: 10%;
+    padding: 0 0 4rem 0;
   }
 
   .our-menu {
@@ -2651,6 +2762,10 @@ footer .socials .social:hover {
   .our-menu .our-menu__cards .cards-wrapper .card {
     width: -webkit-calc(50% - 30px);
     width: calc(50% - 30px);
+  }
+
+  .services .events .img-block img {
+    margin-left: 20%;
   }
 
   .services .events .text-block {
@@ -2674,48 +2789,8 @@ footer .socials .social:hover {
     width: calc(100% - 30px);
   }
 
-  .chef .chef-card {
-    position: relative;
-  }
-
-  .chef .chef-card {
-    top: 0;
-  }
-
-  .chef .chef-card {
-    margin-top: auto;
-  }
-
-  .chef .chef-card .card-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .chef .chef-card .card-wrapper {
-    width: auto;
-  }
-
-  .chef .chef-card .card-wrapper {
-    height: 100%;
-  }
-
-  .chef .chef-card .card-wrapper .card-text {
-    padding: 30px;
-  }
-
-  .chef .chef-card .card-wrapper .card-text {
-    height: 100%;
-  }
-
-  .chef .chef-card .card-wrapper .card-text .line {
-    margin: 80px auto;
-  }
-
   .staff .logo-wrapper {
-    margin: 580px auto 20px auto;
+    margin: 50px auto;
   }
 
   .contactus form .inputs {
@@ -2734,6 +2809,10 @@ footer .socials .social:hover {
 @media screen and (max-width: 560px) {
   html {
     font-size: 6px;
+  }
+
+  .aboutus .aboutus-card {
+    margin-top: 20%;
   }
 
   .aboutus .aboutus-card {
@@ -2756,9 +2835,17 @@ footer .socials .social:hover {
     max-width: 550px;
   }
 
+  .aboutus .aboutus-card .card-content .card-text h3 {
+    padding: 6rem 0 4rem 0;
+  }
+
   .our-menu .our-menu__cards .cards-wrapper .card {
     width: -webkit-calc(75% - 30px);
     width: calc(75% - 30px);
+  }
+
+  .services .events .img-block img {
+    margin-left: 10%;
   }
 
   .services .events .text-block {
@@ -2772,6 +2859,14 @@ footer .socials .social:hover {
 
   .testimonials .plate .author {
     padding-top: 12%;
+  }
+
+  .chef .chef-card .card-wrapper .moreno {
+    width: 100%;
+  }
+
+  .chef .chef-card .card-wrapper .card-text {
+    width: auto;
   }
 
   footer .requisites {
@@ -2791,6 +2886,12 @@ footer .socials .social:hover {
 
   footer .requisites .item {
     padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .services .events .img-block img {
+    margin-left: 2%;
   }
 }
 
